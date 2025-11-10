@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "d5643b3e-ef65-4e67-9a26-17373753408d",
+      "username": "erashutoshji@gmail.com",
+      "passwordHash": "$2a$10$YserkLYYJbpubrAjvq.xVeDINrSbpEwI3vs/JhkLPskWJcu.9LX/6",
+      "createdAt": 1762770793414
+    }
+  ],
+  "nodes": {
+    "fadd4406-2dd0-4028-9848-2adfdfb8f143": {
+      "id": "fadd4406-2dd0-4028-9848-2adfdfb8f143",
+      "parentId": null,
+      "value": 1,
+      "createdAt": 1762770810663,
+      "createdBy": "d5643b3e-ef65-4e67-9a26-17373753408d",
+      "childrenIds": [
+        "5d8888d0-ce6e-418d-85a8-e9bd87b9e82c"
+      ]
+    },
+    "5d8888d0-ce6e-418d-85a8-e9bd87b9e82c": {
+      "id": "5d8888d0-ce6e-418d-85a8-e9bd87b9e82c",
+      "parentId": "fadd4406-2dd0-4028-9848-2adfdfb8f143",
+      "value": 6,
+      "operation": {
+        "type": "add",
+        "value": 5
+      },
+      "createdAt": 1762770828349,
+      "createdBy": "d5643b3e-ef65-4e67-9a26-17373753408d",
+      "childrenIds": []
+    },
+    "5214359c-a08d-4953-9822-0e489d2c4301": {
+      "id": "5214359c-a08d-4953-9822-0e489d2c4301",
+      "parentId": null,
+      "value": 4,
+      "createdAt": 1762770846400,
+      "createdBy": "d5643b3e-ef65-4e67-9a26-17373753408d",
+      "childrenIds": []
+    }
+  },
+  "roots": [
+    "5214359c-a08d-4953-9822-0e489d2c4301",
+    "fadd4406-2dd0-4028-9848-2adfdfb8f143"
+  ]
+}
